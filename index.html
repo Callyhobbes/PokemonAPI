@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Cally's Pokedex</title>
+   <link href="https://fonts.googleapis.com/css2?family=Abel&family=Press+Start+2P&display=swap" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/73e3ff4b5f.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+   <header>
+      <div class="navbar">
+         <div class="wrapper">
+            <nav>
+               <img src="./Assets/pokemon-logo.png" alt="Pokemon Logo" class="pokemon-logo">
+               <ul class="main-nav">
+                  <li><a href="#home">home</a></li>
+                  <li><a href="#about">about</a></li>
+                  <li><a href="#poke-box">pick-a-mon</a></li>
+               </ul>
+            </nav>
+         </div>
+      </div>
+      <div class="hero-header">
+         <div class="wrapper main">
+            <div class="ash-area">
+               <img src="./Assets/ash-image.png" alt="Pokemon Trainer" class="ash-img">
+               <h1 class="ash-text">Gotta Catch 'Em All!</h1>
+            </div>
+         </div>
+      </div>
+   </header>
+
+   <main>
+      <section class="wiki">
+         <div class="wrapper">
+   <!--Pokemon About Section Begins-->
+            <div id="about" class="about-pokemon">
+               <div class="title">
+                  <h2>About Pokemon</h2>
+               </div>
+               <div class="wiki-section">
+                  <!--Content from Wiki or Pikachu-->
+               </div>
+            </div>
+         </div>
+      </section>
+
+<!--API Pokemon Filler Starts-->
+   <section class="starter-pokemon">
+      <div class="wrapper">
+         <div class="title">
+            <h2>Who's your partner?</h2>
+         </div>
+         <div class="poke-box" id="poke-box">
+            <p>The most important start to any pokemon trainer's journey is partnering with their first pokemon. There was no Ash without Pikachu, Brock without Onyx or Misty without Staryu. Who will your first pokemon be?</p>
+            <div class="pokemon-container">
+               <!--JS Goes in Here-->
+               <span>?</span>
+            </div>
+            <div class="phrase">
+               <!--Sweet Section-->
+            </div>
+            <button class="pokemon-randomizer">I choose you!</button>
+         </div>
+      </div>
+   </section>
+   </main>
+
+   <footer>
+      <p>Created at Juno <i class="fab fa-canadian-maple-leaf"></i></p>
+   </footer>
+
+   <script src='https://code.jquery.com/jquery-3.4.0.min.js'
+      integrity='sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=' crossorigin='anonymous'></script>
+   <script src='script.js'></script>
+</body>
+
+</html>
