@@ -10,7 +10,7 @@ wiki.showPokemonDescription = false;
 // API call for wiki summary
 wiki.pullWikiIntro = () => {
    $.ajax({
-      url: 'http://proxy.hackeryou.com',
+      url: 'https://proxy.hackeryou.com',
       method: 'GET',
       dataType: 'json',
       data: {
